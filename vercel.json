@@ -6,7 +6,7 @@
 		},
 		{
 			"source": "/:search(\\?q=)*",
-			"destination": "https://blog.ljs.lol/2021/:path*"
+			"destination": "https://blog.ljs.lol/:search*"
 		}
 	]
 }
