@@ -25,7 +25,7 @@
 </script>
 
 <Meta
-	title="{$page.status} — Deceitville"
+	title={String($page.status)}
 	description={$page.error?.message ?? String($page.status)}
 	keywords={[]}
 	src=""

@@ -139,7 +139,7 @@
 							<svelte:fragment slot="left">
 								<Svg svg={ic_attach_email} />
 							</svelte:fragment>
-							hello@deceitville.com
+							hello@ljs.lol
 							<svelte:fragment slot="right">
 								<Svg svg={ic_arrow_outward} />
 							</svelte:fragment>
