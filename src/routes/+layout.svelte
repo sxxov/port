@@ -21,7 +21,6 @@
 	import DefaultExrHdriProvider from './lib/environment/DefaultExrHdriProvider.svelte';
 	import { useLenisInitialisation } from '../lib/lenis/useLenis';
 	import { useClientHistoryInitialisation } from '../lib/history/clientHistory';
-	import Splash from '../lib/splash/Splash.svelte';
 	import { DRACO_DECODER_URL } from '../lib/3d/part/dracoLoader';
 	import Nav from '../lib/nav/Nav.svelte';
 
@@ -65,7 +64,6 @@
 	/>
 </svelte:head>
 
-<Splash />
 <main>
 	<Toaster />
 	<Nav />
