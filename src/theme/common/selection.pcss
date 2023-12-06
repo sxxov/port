@@ -1,0 +1,19 @@
+/* stylelint-disable custom-property-pattern */
+
+::selection {
+	background: var(----colour-text-tertiary);
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection {
+	background: var(----colour-accent-secondary);
+}
+
+button,
+a {
+	-webkit-tap-highlight-color: transparent;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 749">
+	<g>
+		<rect x="750" width="250" height="250" />
+	</g>
+	<g>
+		<rect x="500" y="250" width="250" height="250" />
+	</g>
+	<g>
+		<rect y="499" width="250" height="250" />
+	</g>
+	<g>
+		<rect x="250" width="250" height="500" />
+	</g>
+</svg>

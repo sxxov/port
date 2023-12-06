@@ -1,0 +1,14 @@
+diff --git a/node_modules/@threlte/extras/dist/components/HTML/HTML.svelte b/node_modules/@threlte/extras/dist/components/HTML/HTML.svelte
+index bccb5f3..b1228db 100644
+--- a/node_modules/@threlte/extras/dist/components/HTML/HTML.svelte
++++ b/node_modules/@threlte/extras/dist/components/HTML/HTML.svelte
+@@ -101,6 +101,9 @@ $: updateStyles(styles.transform.outerRef, {
+ $: updateStyles(styles.transform.innerRef, {
+     pointerEvents
+ });
++$: updateStyles(styles.noTransform.div, {
++    pointerEvents
++});
+ $: updateStyles(styles.noTransform.div, {
+     transform: center ? 'translate3d(-50%, -50%, 0)' : 'none'
+ });

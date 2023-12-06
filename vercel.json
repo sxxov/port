@@ -1,0 +1,12 @@
+{
+	"rewrites": [
+		{
+			"source": "/:year(\\d{4})*",
+			"destination": "https://blog.ljs.lol/:year*"
+		},
+		{
+			"source": "/:search(\\?q=)*",
+			"destination": "https://blog.ljs.lol/2021/:path*"
+		}
+	]
+}
