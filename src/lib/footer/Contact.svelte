@@ -127,7 +127,7 @@
 			>
 				<h3>Email:</h3>
 				<div class="left">
-					<a href="mailto:hello@deceitville.com">
+					<a href="mailto:hello@ljs.lol">
 						<Button
 							{...ButtonVariants.Secondary}
 							{...ButtonVariants.Shadow.Sm}
