@@ -1,12 +1,12 @@
 {
 	"redirects": [
 		{
-			"source": "/:year(\\d{4})*",
+			"source": "/:year(\\d{4})",
 			"destination": "https://blog.ljs.lol/:year*",
 			"permanent": true
 		},
 		{
-			"source": "/:search(\\?q=)*",
+			"source": "/:search(\\?q=)",
 			"destination": "https://blog.ljs.lol/:search*",
 			"permanent": true
 		}
