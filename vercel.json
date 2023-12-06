@@ -1,12 +1,14 @@
 {
-	"rewrites": [
+	"redirects": [
 		{
 			"source": "/:year(\\d{4})*",
-			"destination": "https://blog.ljs.lol/:year*"
+			"destination": "https://blog.ljs.lol/:year*",
+			"permanent": true
 		},
 		{
 			"source": "/:search(\\?q=)*",
-			"destination": "https://blog.ljs.lol/:search*"
+			"destination": "https://blog.ljs.lol/:search*",
+			"permanent": true
 		}
 	]
 }
