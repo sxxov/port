@@ -17,6 +17,8 @@
 		box-sizing: border-box;
 		vertical-align: super;
 
+		margin-top: 14px;
+
 		position: relative;
 		top: 0;
 

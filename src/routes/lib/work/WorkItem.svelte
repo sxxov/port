@@ -50,6 +50,7 @@
 			text-underline-offset: 24px;
 
 			max-width: max-content;
+			word-wrap: break-word;
 			word-break: break-word;
 
 			--transition-base: font-size 0.5s var(----ease-slow-slow),
@@ -66,12 +67,14 @@
 				cursor: not-allowed;
 			}
 
-			&:not(.disabled):hover {
+			&:not(.disabled):hover,
+			&:not(.disabled):active,
+			&:not(.disabled):focus {
 				text-decoration-thickness: 1px;
-				text-underline-offset: 42px;
+				text-underline-offset: min(42px, 6vw);
 
 				font-weight: 100;
-				font-size: 8rem;
+				font-size: min(8rem, 20vw);
 				letter-spacing: -0.1em;
 
 				transition: var(--transition-base),
@@ -101,7 +104,7 @@
 
 				transition: width var(--duration-width) var(--easing);
 
-				top: calc(1em + 42px - 1px);
+				top: calc(1em + min(42px, 6vw) - 1px);
 				transform: translateY(-50%);
 
 				& > .content {

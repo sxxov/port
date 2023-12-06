@@ -101,27 +101,36 @@
 				<WorkItem
 					href="https://cloething.staging.ljs.lol"
 					src={src_cloething}
-					>Cloething <WorkChip>Demo</WorkChip></WorkItem
+					>Cloe<span class="group"
+						>thing <WorkChip>Demo</WorkChip></span
+					></WorkItem
 				>
 				<WorkItem
 					href="https://ai.sxxov.design"
 					src={src_auto_intro}
-					>Auto Intro <WorkChip>Experiment</WorkChip></WorkItem
+					>Auto <span class="group"
+						>Intro <WorkChip>Experiment</WorkChip></span
+					></WorkItem
 				>
 				<WorkItem
 					href="https://succide.staging.sxxov.design/"
 					src={src_succide}
-					>Succide <WorkChip>Game</WorkChip></WorkItem
+					>Succ<span class="group">ide <WorkChip>Game</WorkChip></span
+					></WorkItem
 				>
 				<WorkItem
 					href="https://vortex-oobe.staging.sxxov.design"
 					src={src_vortex_oobe}
-					>VorteXR Lab Launch <WorkChip>Mobile AR</WorkChip></WorkItem
+					>VorteXR Lab <span class="group"
+						>Launch <WorkChip>Mobile AR</WorkChip></span
+					></WorkItem
 				>
 				<WorkItem
 					href="https://old.ljs.lol"
 					src={src_first_website}
-					>My First Website <WorkChip>Demo</WorkChip></WorkItem
+					>My First <span class="group"
+						>Website <WorkChip>Demo</WorkChip></span
+					></WorkItem
 				>
 			</div>
 		</section>
@@ -198,41 +207,13 @@
 						flex-direction: column;
 						gap: 14px;
 
-						& > a {
-							font-weight: 900;
-							letter-spacing: -0.05em;
-							font-size: 4rem;
-							text-decoration-thickness: 1px;
-							text-underline-offset: 24px;
+						@media (max-width: 768px) {
+							gap: 56px;
+						}
 
-							width: max-content;
-
-							transition:
-								font-size 0.5s var(----ease-slow-slow),
-								font-weight 0.5s var(----ease-slow-slow),
-								letter-spacing 0.5s var(----ease-slow-slow),
-								text-underline-offset 0.5s
-									var(----ease-slow-slow);
-
-							&:hover {
-								text-decoration-thickness: 1px;
-								text-underline-offset: -0.3em;
-
-								font-weight: 100;
-								font-size: 8rem;
-								letter-spacing: -0.1em;
-							}
-
-							& > .chip {
-								font-size: 0.8em;
-								font-weight: 600;
-								color: var(----colour-text-secondary);
-								background-color: var(
-									----colour-accent-primary
-								);
-								border-radius: 4px;
-								padding: 2px 4px;
-							}
+						& .group {
+							white-space: nowrap;
+							word-break: break-word;
 						}
 					}
 				}

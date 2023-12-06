@@ -329,7 +329,7 @@
 
 		/* gap: 56px; */
 
-		padding: clamp(14px, 4vw, 56px);
+		padding: clamp(28px, 4vw, 56px);
 		box-sizing: border-box;
 
 		z-index: 3;
