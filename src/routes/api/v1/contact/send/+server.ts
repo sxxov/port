@@ -66,12 +66,12 @@ export const POST = async ({ request }) => {
 				{
 					From: {
 						Email: mailjetSenderEmail,
-						Name: 'De Bot®',
+						Name: 'ljs bot®',
 					},
 					To: [
 						{
 							Email: mailjetSenderEmail,
-							Name: 'De Bot®',
+							Name: 'Lim Jia Sheng',
 						},
 						{
 							Email: email,
@@ -83,7 +83,7 @@ export const POST = async ({ request }) => {
 						message,
 					)}<br><br>— ${strip(name)}<br>${strip(
 						email,
-					)}<br><br><hr><br><br>Beep boop, this message was sent by De Bot®. Reply to continue the conversation.`,
+					)}<br><br><hr><br><br>Beep boop, this message was sent by ljs bot®. Reply to continue the conversation.`,
 				},
 			],
 		}),
