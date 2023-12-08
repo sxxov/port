@@ -43,6 +43,8 @@
 		display: contents;
 
 		& > a {
+			position: relative;
+
 			font-weight: 900;
 			letter-spacing: -0.05em;
 			font-size: 4rem;
