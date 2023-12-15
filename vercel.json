@@ -16,8 +16,8 @@
 			"permanent": true
 		},
 		{
-			"source": "/search",
-			"destination": "https://blog.ljs.lol/search*",
+			"source": "/search/:path*",
+			"destination": "https://blog.ljs.lol/search/:path*",
 			"permanent": true
 		}
 	]
